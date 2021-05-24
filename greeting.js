@@ -20,7 +20,7 @@ function handleSubmit(event){
 
 function askForName(){
     form.classList.add(SHOWING_CN);
-    form.addEventListener("submit", handleSubmit)
+    form.addEventListener("submit", handleSubmit);
     //submit 했을 때 handleSubmit함수를 호출
 }
 
