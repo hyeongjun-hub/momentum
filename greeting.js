@@ -30,7 +30,7 @@ function paintGreeting(text){
     //form의 showing class를 지워 display를 none으로
     greeting.classList.add(SHOWING_CN);
     //greeting(h4)에 showing class 추가
-    greeting.innerText = `Hello ${text}`;
+    greeting.innerText = `Hello! ${text}`;
     //greeting(h4)의 내부text를 헬로 + 인자로
 }
 
